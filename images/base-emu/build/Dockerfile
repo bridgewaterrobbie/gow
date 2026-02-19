@@ -145,8 +145,8 @@ github_download "cemu-project/Cemu" "cemu-emu.AppImage" "" "/latest"
 echo "**** Downloading Dolphin AppImage ****"
 github_download "pkgforge-dev/Dolphin-emu-AppImage" "dolphin-emu.AppImage" "|select(.name|contains(\"dwarfs-x86_64\"))"
 
-echo "**** Downloading Citron Emulator AppImage ****"
-forgejo_download "https://git.citron-emu.org/citron/emulator" "citron.AppImage" "x86_64"
+echo "**** Downloading Eden Emulator AppImage ****"
+github_download "eden-emulator/Releases" "eden.AppImage" "amd64-gcc-standard" "tags/v0.2.0-rc1"
 
 echo "**** Downloading Xenia Canary ****"
 github_download "xenia-canary/xenia-canary-releases" "xenia_canary_linux.tar.gz" "" ""
